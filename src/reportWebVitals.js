@@ -10,4 +10,7 @@ const reportWebVitals = onPerfEntry => {
   }
 };
 
+//reportWebVitals are metrics used for measuring performance for user experience
+
+
 export default reportWebVitals;
