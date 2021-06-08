@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import reportWebVitals from "./reportWebVitals";
+import { HashRouter, Route, Switch, Link } from "react-router-dom";
+import HomeBg from "./Resources/Graphics/HomeBg.png";
+import Navbar from "./Layouts/NavBar";
 
 function App() {
+  reportWebVitals(console.log);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <Switch>
+
+      <div className="App" style={{
+        backgroundImage:`url(${HomeBg})`
+        }}>
+        <Navbar/>
+        <Route exact path='/'>
+          Home
+        </Route>
+        <Route exact path='/contact'>
+          Contact
+        </Route>
+        <Route exact path='/about'>
+          About me
+        </Route>
+        <Route exact path='/creations'>
+          My Projects
+        </Route>
+
+
+      </div>
+      </Switch>
+    </HashRouter>
   );
 }
 
