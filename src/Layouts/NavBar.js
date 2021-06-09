@@ -14,7 +14,7 @@ const NavBar = () => {
               <Emblem></Emblem>
             </NavLink>
           </nav>
-          <div className="my-6 ">
+          <div className="mt-7 ">
             <NavLink to="/contact" className="">
               <NavElement title="Reach Out" />
             </NavLink>
