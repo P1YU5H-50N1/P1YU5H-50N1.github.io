@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4972105.chunk.css",
+    "main.js": "/static/js/main.0585cb61.chunk.js",
+    "main.js.map": "/static/js/main.0585cb61.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8212ed98.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8212ed98.js.map",
+    "static/js/2.dded5ca0.chunk.js": "/static/js/2.dded5ca0.chunk.js",
+    "static/js/2.dded5ca0.chunk.js.map": "/static/js/2.dded5ca0.chunk.js.map",
+    "static/js/3.f9cfd7c2.chunk.js": "/static/js/3.f9cfd7c2.chunk.js",
+    "static/js/3.f9cfd7c2.chunk.js.map": "/static/js/3.f9cfd7c2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c4972105.chunk.css.map": "/static/css/main.c4972105.chunk.css.map",
+    "static/js/2.dded5ca0.chunk.js.LICENSE.txt": "/static/js/2.dded5ca0.chunk.js.LICENSE.txt",
+    "static/media/Atheneum.db4ae01b.png": "/static/media/Atheneum.db4ae01b.png",
+    "static/media/DjangoLogo.1050f69e.svg": "/static/media/DjangoLogo.1050f69e.svg",
+    "static/media/Emblem.5a5774ed.svg": "/static/media/Emblem.5a5774ed.svg",
+    "static/media/GithubIcon.88f9d0d1.svg": "/static/media/GithubIcon.88f9d0d1.svg",
+    "static/media/HomeBg.8c078d3d.png": "/static/media/HomeBg.8c078d3d.png",
+    "static/media/Keyboard.a4312963.svg": "/static/media/Keyboard.a4312963.svg",
+    "static/media/LinkedInIcon.2a2ac1e2.svg": "/static/media/LinkedInIcon.2a2ac1e2.svg",
+    "static/media/Mouse.c66a5aaf.svg": "/static/media/Mouse.c66a5aaf.svg",
+    "static/media/ReactLogo.7db1dac7.svg": "/static/media/ReactLogo.7db1dac7.svg",
+    "static/media/VueLogo.136a4039.svg": "/static/media/VueLogo.136a4039.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8212ed98.js",
+    "static/js/2.dded5ca0.chunk.js",
+    "static/css/main.c4972105.chunk.css",
+    "static/js/main.0585cb61.chunk.js"
+  ]
+}
