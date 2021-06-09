@@ -6,10 +6,15 @@ import OtherProjectsPane from "../Components/OtherProjectsPane";
 const About = () => {
   return (
     <Fragment>
-      <div className="container  mx-auto px-20">
-          <BuildStuff/>
-          <AboutPageCTA/>
-          <OtherProjectsPane/>
+      <div className="container h-5/6 mx-auto px-4 lg:px-12 ">
+        <div className="grid lg:grid-cols-2 h-4/6 lg:h-3/4 ">
+          <div className="">
+            <BuildStuff />
+            <AboutPageCTA />
+          </div>
+          <div className="hidden lg:block">{/*TODO: icon cloud */}</div>
+        </div>
+        <OtherProjectsPane />
       </div>
     </Fragment>
   );
