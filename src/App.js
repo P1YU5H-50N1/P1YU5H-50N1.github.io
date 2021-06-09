@@ -11,7 +11,7 @@ import Creations from "./Layouts/Creations";
 function App() {
   reportWebVitals(console.log);
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <div className="App">
           <Navbar />
