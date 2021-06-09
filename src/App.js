@@ -7,26 +7,17 @@ import Contact from "./Layouts/Contact";
 import About from "./Layouts/About";
 import Creations from "./Layouts/Creations";
 
-
 function App() {
   reportWebVitals(console.log);
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename="/">
       <Switch>
         <div className="App">
           <Navbar />
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/contact">
-            <Contact/>
-          </Route>
-          <Route exact path="/about">
-            <About/>
-          </Route>
-          <Route exact path="/creations">
-            <Creations/>
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/creations" component={Creations} />
         </div>
       </Switch>
     </HashRouter>
