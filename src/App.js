@@ -1,34 +1,33 @@
 import "./App.css";
 import reportWebVitals from "./reportWebVitals";
 import { HashRouter, Route, Switch, Link } from "react-router-dom";
-import HomeBg from "./Resources/Graphics/HomeBg.png";
 import Navbar from "./Layouts/NavBar";
+import Home from "./Layouts/Home";
+import Contact from "./Layouts/Contact";
+import About from "./Layouts/About";
+import Creations from "./Layouts/Creations";
+
 
 function App() {
   reportWebVitals(console.log);
   return (
     <HashRouter>
       <Switch>
-
-      <div className="App" style={{
-        backgroundImage:`url(${HomeBg})`
-        }}>
-        <Navbar/>
-        <Route exact path='/'>
-          Home
-        </Route>
-        <Route exact path='/contact'>
-          Contact
-        </Route>
-        <Route exact path='/about'>
-          About me
-        </Route>
-        <Route exact path='/creations'>
-          My Projects
-        </Route>
-
-
-      </div>
+        <div className="App">
+          <Navbar />
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/contact">
+            <Contact/>
+          </Route>
+          <Route exact path="/about">
+            <About/>
+          </Route>
+          <Route exact path="/creations">
+            <Creations/>
+          </Route>
+        </div>
       </Switch>
     </HashRouter>
   );
