@@ -8,7 +8,6 @@ const NavBar = () => {
     <Fragment>
       <header className="border-b border-solid border-black">
         <div className="container mx-auto lg:px-10 flex justify-between ">
-
           <nav className="flex">
             <NavLink to="/" exact>
               <Emblem></Emblem>
@@ -23,7 +22,6 @@ const NavBar = () => {
               <NavElement title="About Me" />
             </NavLink>
           </div>
-
         </div>
       </header>
     </Fragment>
