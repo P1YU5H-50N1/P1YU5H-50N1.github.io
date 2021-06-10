@@ -4,7 +4,7 @@ import GitHubIcon from "../Resources/Graphics/GithubIcon.svg";
 
 const OtherProjectsPane = () => {
   return (
-    <div className="grid gap-3 pt-8 grid-cols-4 lg:grid-cols-10">
+    <div className="grid gap-3 pt-16 lg:pt-8 grid-cols-4 lg:grid-cols-10">
       <div className=" text-right pr-4 text-gray-500 border-r-2 border-black">
         Peek Into <br />
         Other <br />
