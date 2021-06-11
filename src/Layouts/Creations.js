@@ -9,9 +9,7 @@ const Creations = () => {
       <div
         style={{ backgroundImage: `url(${AtheneumSS})` }}
         className=" bg-contain bg-center mx-2 bg-no-repeat lg:col-span-2"
-      >
-        {/* <img src={AtheneumSS}></img> */}
-      </div>
+      ></div>
 
       <div className="flex flex-col row-span-2 mx-2 text-center lg:text-left  ">
         <div
@@ -23,20 +21,23 @@ const Creations = () => {
         </div>
         <div className="mb-16">
           {/* Description */}
-          Book Recommendation Platform <br /> And <br />
-          Discussion Forum
+          Book Recommendation Platform
+          {/* <br /> And <br />
+          Discussion Forum */}
         </div>
         <div className="flex lg:flex-col px-10 lg:px-0 text-2xl space-x-2 lg:space-x-0 lg:space-y-4 w-full justify-around lg:justify-start">
           {/* CTAs */}
-          <div>
-            <button className="bg-white focus:outline-none text-center shadow-md hover:shadow-xl  hover:bg-black text-black hover:text-white px-10 border border-black hover:border-transparent rounded-lg">
+          <div className="hidden lg:invisible">
+            {/* <button className="bg-white focus:outline-none text-center shadow-md hover:shadow-xl  hover:bg-black text-black hover:text-white px-10 border border-black hover:border-transparent rounded-lg">
               Live
-            </button>
+            </button> */}
           </div>
           <div>
-            <button className="bg-white focus:outline-none text-center shadow-md hover:shadow-xl   hover:bg-black text-black hover:text-white px-10 border border-black hover:border-transparent rounded-lg">
-              Code
-            </button>
+            <a href="https://github.com/P1YU5H-50N1/Atheneum" target="_blank" rel="noreferrer">
+              <button className="bg-white focus:outline-none text-center shadow-md hover:shadow-xl   hover:bg-black text-black hover:text-white px-10 border border-black hover:border-transparent rounded-lg">
+                Code
+              </button>
+            </a>
           </div>
         </div>
         <div className="flex w-full mt-8 mx-auto lg:mx-0 justify-center lg:justify-start">
