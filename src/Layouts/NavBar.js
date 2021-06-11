@@ -1,9 +1,11 @@
 import React, { Fragment } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import Emblem from "../Components/Emblem";
 import NavElement from "../Components/NavElement";
 
 const NavBar = () => {
+  let location = useLocation();
+  console.log(location.pathname);
   return (
     <Fragment>
       <header className="border-b border-solid border-black">
@@ -14,13 +16,27 @@ const NavBar = () => {
             </NavLink>
           </nav>
           <div className="mt-7 ">
-            <NavLink to="/contact" className="">
-              <NavElement title="Reach Out" />
-            </NavLink>
-
-            <NavLink to="/about">
-              <NavElement title="About Me" />
-            </NavLink>
+            {!["/", "/creations"].includes(location.pathname) ? (
+              <NavLink to="/creations">
+                <NavElement title="Creations"></NavElement>
+              </NavLink>
+            ) : (
+              ""
+            )}
+            {!["/contact"].includes(location.pathname) ? (
+              <NavLink to="/contact" className="">
+                <NavElement title="Reach Out" />
+              </NavLink>
+            ) : (
+              ""
+            )}
+            {!["/about"].includes(location.pathname) ? (
+              <NavLink to="/about">
+                <NavElement title="About Me" />
+              </NavLink>
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </header>
