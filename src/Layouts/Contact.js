@@ -15,9 +15,9 @@ const Contact = () => {
     // console.log(`submitted : \n + ${Name},${Message},${Email}`);
     sendForm(
       "default_service",
-      "TEMPLATE ID",
+      "template_jvizfuj",
       e.target,
-      "EMAIL_JS_USERID"
+      "user_33sUCps7fzTG23THX5CxK"
     ).then(
       function (response) {
         console.log("SUCCESS!", response.status, response.text);

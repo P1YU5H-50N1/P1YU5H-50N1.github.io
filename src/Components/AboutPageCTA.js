@@ -16,9 +16,15 @@ const AboutPageCTA = () => {
         Discover Entire <br />
         Skill Set
         <br />
-        <button className="bg-black focus:outline-none text-xl hover:shadow-xl hover:bg-white text-white hover:text-black py-2 px-6 border-2 border-black hover:border-black rounded-lg">
-          Resume
-        </button>
+        <a
+          href="https://docs.google.com/document/d/e/2PACX-1vRrZ19kNPeV38XPN9PLNdVmTSECu7A3tXoRkQoH72lFjJexHxZDCr11y5So8Kg3qGAx6UNP1ZcFropA/pub"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="bg-black mt-2 focus:outline-none text-xl hover:shadow-xl hover:bg-white text-white hover:text-black py-2 px-6 border-2 border-black hover:border-black rounded-lg">
+            Resume
+          </button>
+        </a>
       </div>
     </div>
   );

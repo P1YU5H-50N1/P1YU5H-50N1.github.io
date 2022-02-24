@@ -13,8 +13,8 @@ const Banner = () => {
         }}
       >
         <div className="text-6xl">
-          I Create <br />
-          <b>Design Oriented Websites</b>
+          I Explore <br />
+          <b>Design, ML And Web Apps</b>
         </div>
         <Link to="/creations">
           <button
